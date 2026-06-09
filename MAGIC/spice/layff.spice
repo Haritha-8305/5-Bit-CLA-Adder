@@ -1,0 +1,27 @@
+* SPICE3 file created from layff.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 q qbar gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=151 ps=91
+M1001 q qbar vdd inverterl_0/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=400 ps=200
+M1002 a_1_n56# clk a_1_n10# w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=200 ps=100
+M1003 a_1_n56# d gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1004 vdd a_34_n56# qbar w_n17_n22# pfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+M1005 gnd a_34_n56# a_107_n56# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=100 ps=60
+M1006 a_34_n56# a_1_n56# a_27_n56# Gnd nfet w=10 l=2
++  ad=50 pd=30 as=100 ps=60
+M1007 a_107_n56# clk qbar Gnd nfet w=10 l=2
++  ad=0 pd=0 as=50 ps=30
+M1008 gnd clk a_27_n56# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 a_1_n10# d vdd w_n17_n22# pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 vdd clk a_34_n56# w_n17_n22# pfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50
+C0 w_n17_n22# Gnd 7.79fF

@@ -1,0 +1,20 @@
+* SPICE3 file created from layc1.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 c1 c1bar gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=200 ps=110
+M1001 c1 c1bar vdd inverterl_0/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=500 ps=230
+M1002 a_1_365# c0 vdd w_n13_353# pfet w=40 l=2
++  ad=600 pd=270 as=0 ps=0
+M1003 a_1_293# c0 gnd Gnd nfet w=20 l=2
++  ad=200 pd=100 as=0 ps=0
+M1004 c1bar g1 a_1_365# w_n13_353# pfet w=40 l=2
++  ad=61 pd=30 as=0 ps=0
+M1005 gnd g1 c1bar Gnd nfet w=10 l=2
++  ad=0 pd=0 as=150 ps=80
+M1006 vdd p1 a_1_365# w_n13_353# pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 c1bar p1 a_1_293# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0

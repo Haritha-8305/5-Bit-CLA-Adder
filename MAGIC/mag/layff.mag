@@ -1,0 +1,131 @@
+magic
+tech scmos
+timestamp 1731891772
+<< nwell >>
+rect -17 -22 148 25
+<< ntransistor >>
+rect -1 -56 1 -46
+rect 32 -56 34 -46
+rect 65 -56 67 -46
+rect 105 -56 107 -46
+rect 131 -63 133 -53
+<< ptransistor >>
+rect -1 -10 1 10
+rect 32 -10 34 10
+rect 65 -10 67 10
+rect 131 -10 133 10
+<< ndiffusion >>
+rect -2 -56 -1 -46
+rect 1 -56 2 -46
+rect 31 -56 32 -46
+rect 34 -56 35 -46
+rect 64 -56 65 -46
+rect 67 -56 68 -46
+rect 104 -56 105 -46
+rect 107 -56 108 -46
+rect 130 -63 131 -53
+rect 133 -63 134 -53
+<< pdiffusion >>
+rect -2 -10 -1 10
+rect 1 -10 2 10
+rect 31 -10 32 10
+rect 34 -10 35 10
+rect 64 -10 65 10
+rect 67 -10 68 10
+rect 130 -10 131 10
+rect 133 -10 134 10
+<< ndcontact >>
+rect -6 -56 -2 -46
+rect 2 -56 6 -46
+rect 27 -56 31 -46
+rect 35 -56 39 -46
+rect 60 -56 64 -46
+rect 68 -56 72 -46
+rect 100 -56 104 -46
+rect 108 -56 112 -46
+rect 126 -63 130 -53
+rect 134 -63 138 -53
+<< pdcontact >>
+rect -6 -10 -2 10
+rect 2 -10 6 10
+rect 27 -10 31 10
+rect 35 -10 39 10
+rect 60 -10 64 10
+rect 68 -10 72 10
+rect 126 -10 130 10
+rect 134 -10 138 10
+<< polysilicon >>
+rect -1 10 1 19
+rect 32 10 34 19
+rect 65 10 67 19
+rect 131 10 133 19
+rect -1 -46 1 -10
+rect 32 -30 34 -10
+rect 32 -46 34 -38
+rect 65 -46 67 -10
+rect 131 -23 133 -10
+rect 94 -25 133 -23
+rect 105 -46 107 -30
+rect 131 -53 133 -25
+rect -1 -59 1 -56
+rect 32 -59 34 -56
+rect 65 -59 67 -56
+rect 105 -59 107 -56
+rect 131 -67 133 -63
+<< polycontact >>
+rect 34 15 39 19
+rect 60 15 65 19
+rect -6 -43 -1 -39
+rect 27 -28 32 -24
+rect 28 -42 32 -38
+rect 89 -27 94 -23
+rect 67 -35 72 -30
+rect 100 -35 105 -30
+<< metal1 >>
+rect -17 25 187 32
+rect -6 10 -2 25
+rect 39 15 60 19
+rect 68 10 72 25
+rect 134 10 138 25
+rect 183 11 187 25
+rect 6 6 27 10
+rect -30 -28 27 -24
+rect 35 -32 39 -10
+rect 14 -35 39 -32
+rect 60 -24 64 -10
+rect 60 -27 89 -24
+rect 14 -38 18 -35
+rect 60 -38 64 -27
+rect 72 -35 100 -30
+rect -30 -43 -6 -39
+rect 2 -42 28 -38
+rect 35 -42 64 -38
+rect 126 -39 130 -10
+rect 2 -46 6 -42
+rect 35 -46 39 -42
+rect 100 -43 165 -39
+rect 100 -46 104 -43
+rect 161 -44 165 -43
+rect -6 -72 -2 -56
+rect 27 -62 31 -56
+rect 60 -62 64 -56
+rect 27 -66 64 -62
+rect 161 -48 172 -44
+rect 223 -49 230 -45
+rect 68 -72 72 -56
+rect 108 -60 112 -56
+rect 108 -63 126 -60
+rect 134 -72 138 -63
+rect -17 -79 181 -72
+use inverterl  inverterl_0 
+timestamp 1731618937
+transform 1 0 194 0 1 -21
+box -23 -52 29 32
+<< labels >>
+rlabel metal1 87 -78 87 -78 1 gnd
+rlabel metal1 67 29 67 29 5 vdd
+rlabel metal1 155 -41 155 -41 1 qbar
+rlabel metal1 -26 -41 -26 -41 3 d
+rlabel metal1 -22 -26 -22 -26 1 clk
+rlabel metal1 226 -47 226 -47 7 q
+<< end >>

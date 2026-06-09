@@ -1,0 +1,141 @@
+timestamp 1764763586
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use andl andl_4 1 0 223 0 1 203
+use layxor layxor_4 1 0 -219 0 1 253
+use andl andl_0 1 0 222 0 1 5
+use layxor layxor_0 1 0 -218 0 1 50
+use andl andl_1 1 0 220 0 1 -158
+use layxor layxor_1 1 0 -221 0 1 -121
+use andl andl_2 1 0 222 0 1 -326
+use layxor layxor_2 1 0 -219 0 1 -308
+use andl andl_3 1 0 221 0 1 -509
+use layxor layxor_3 1 0 -226 0 1 -501
+node "g4" 0 63.7725 333 -479 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75 40 0 0 0 0 0 0 0 0 0 0
+node "p4" 0 86.1126 124 -480 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 114 50 0 0 0 0 0 0 0 0 0 0
+node "a4" 6 4715.41 57 -560 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 111 62 2380 854 0 0 0 0 0 0 0 0
+node "b4" 4 1828.64 75 -398 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 287 144 947 376 0 0 0 0 0 0 0 0
+node "g3" 0 56.6055 334 -296 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 65 36 0 0 0 0 0 0 0 0 0 0
+node "a3" 8 4308.17 64 -364 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 65 46 1701 796 0 0 0 0 0 0 0 0
+node "p3" 0 47.1186 131 -287 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54 30 0 0 0 0 0 0 0 0 0 0
+node "b3" 3 2265.78 82 -205 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 223 114 1457 396 0 0 0 0 0 0 0 0
+node "g2" 0 74.523 329 -128 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 90 46 0 0 0 0 0 0 0 0 0 0
+node "a2" 4 4352.17 61 -179 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 93 54 2944 762 0 0 0 0 0 0 0 0
+node "p2" 0 62.7162 129 -100 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 78 38 0 0 0 0 0 0 0 0 0 0
+node "b2" 3 1977.19 87 -25 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 294 112 1162 346 0 0 0 0 0 0 0 0
+node "g1" 0 85.2735 334 35 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 105 52 0 0 0 0 0 0 0 0 0 0
+node "a1" 7 3855.29 64 -6 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 84 1646 706 0 0 0 0 0 0 0 0
+node "p1" 0 47.1186 132 71 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54 30 0 0 0 0 0 0 0 0 0 0
+node "b1" 2 2407.91 82 153 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 624 180 2002 386 0 0 0 0 0 0 0 0
+node "m1_334_233#" 0 92.4405 334 233 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 115 56 0 0 0 0 0 0 0 0 0 0
+node "m1_64_190#" 6 4073.47 64 190 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 270 122 2014 738 0 0 0 0 0 0 0 0
+node "m1_82_347#" 2 2267.52 82 347 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 342 120 1683 394 0 0 0 0 0 0 0 0
+node "vdd" 24 7567.36 41 -397 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11851 3816 0 0 0 0 0 0 0 0 0 0
+node "gnd" 22 12844.4 -33 -505 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24134 5210 0 0 0 0 0 0 0 0 0 0
+cap "m1_64_190#" "gnd" 155.805
+cap "p1" "vdd" 61.857
+cap "a3" "g3" 50.4
+cap "b3" "a2" 186.18
+cap "b4" "vdd" 931.345
+cap "a2" "vdd" 180.161
+cap "a1" "g1" 50.4
+cap "g4" "a4" 131.45
+cap "b2" "vdd" 792.721
+cap "gnd" "a2" 70.56
+cap "b1" "vdd" 409.034
+cap "gnd" "a4" 155.805
+cap "p3" "vdd" 49.4856
+cap "m1_82_347#" "vdd" 538.052
+cap "a3" "vdd" 119.272
+cap "m1_64_190#" "m1_334_233#" 131.45
+cap "a3" "gnd" 70.56
+cap "a1" "vdd" 475.099
+cap "p2" "vdd" 82.476
+cap "b3" "vdd" 1414.63
+cap "a1" "gnd" 119.272
+cap "m1_64_190#" "vdd" 143.028
+cap "g2" "a2" 85.1355
+subcap "a4" -3972.17
+cap "layxor_3/gnd" "layxor_3/inverterl_1/invi" 117.823
+cap "andl_3/gnd" "a4" -1.42109e-14
+subcap "b4" -1447.46
+subcap "a3" -4263.62
+subcap "vdd" -6938.32
+cap "layxor_3/b" "gnd" 270.993
+subcap "b4" -1193.7
+subcap "a3" -3471.9
+cap "andl_3/vdd" "b4" 38.9718
+subcap "a3" -4051.01
+subcap "a3" -3133.63
+cap "andl_2/gnd" "a3" 60.8895
+cap "a3" "andl_2/s" 57.8925
+subcap "a2" -4199.68
+subcap "b3" -1662.68
+subcap "a2" -3389.14
+cap "andl_2/vdd" "b3" 24.3579
+cap "andl_1/a" "andl_1/gnd" 60.8895
+cap "andl_1/a" "andl_1/s" 23.157
+subcap "a1" -3687.88
+subcap "b2" -1419.73
+subcap "a1" -3069.87
+cap "vdd" "layxor_1/b" 96.222
+cap "b2" "andl_1/vdd" 10.44
+cap "andl_0/s" "a1" 46.314
+subcap "m1_64_190#" -3912.62
+subcap "b1" -1669.89
+subcap "m1_64_190#" -3267.33
+subcap "m1_82_347#" -2311.78
+subcap "m1_334_233#" -32.3205
+subcap "m1_82_347#" -1573.52
+merge "layxor_4/gnd" "andl_4/gnd" -657.963 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -573 -476 0 0 0 0 0 0 0 0 0 0
+merge "andl_4/gnd" "andl_0/gnd"
+merge "andl_0/gnd" "layxor_0/gnd"
+merge "layxor_0/gnd" "layxor_1/gnd"
+merge "layxor_1/gnd" "andl_1/gnd"
+merge "andl_1/gnd" "andl_2/gnd"
+merge "andl_2/gnd" "layxor_2/gnd"
+merge "layxor_2/gnd" "andl_3/gnd"
+merge "andl_3/gnd" "layxor_3/gnd"
+merge "layxor_3/gnd" "gnd"
+merge "layxor_4/vdd" "andl_4/vdd" -1489.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1839 -907 0 0 0 0 0 0 0 0 0 0
+merge "andl_4/vdd" "layxor_0/vdd"
+merge "layxor_0/vdd" "andl_0/vdd"
+merge "andl_0/vdd" "andl_1/vdd"
+merge "andl_1/vdd" "layxor_1/vdd"
+merge "layxor_1/vdd" "andl_2/vdd"
+merge "andl_2/vdd" "layxor_2/vdd"
+merge "layxor_2/vdd" "andl_3/vdd"
+merge "andl_3/vdd" "layxor_3/vdd"
+merge "layxor_3/vdd" "vdd"
+merge "andl_4/s" "m1_334_233#" -12.9717 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3 -12 0 0 0 0 0 0 0 0 0 0
+merge "layxor_0/s" "p1" -12.024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0
+merge "andl_4/a" "layxor_4/a" -2092.57 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -38 -885 -378 0 0 0 0 0 0 0 0
+merge "layxor_4/a" "m1_64_190#"
+merge "layxor_1/s" "p2" -12.024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0
+merge "andl_3/a" "layxor_3/a" -626.421 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -22 -290 -121 0 0 0 0 0 0 0 0
+merge "layxor_3/a" "a4"
+merge "andl_4/b" "layxor_4/b" -567.581 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -80 -82 -100 0 0 0 0 0 0 0 0
+merge "layxor_4/b" "m1_82_347#"
+merge "andl_2/s" "g3" -10.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0
+merge "layxor_2/s" "p3" -12.024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0
+merge "andl_3/b" "layxor_3/b" -496.339 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -30 -396 -138 0 0 0 0 0 0 0 0
+merge "layxor_3/b" "b4"
+merge "layxor_3/s" "p4" -12.024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0
+merge "andl_1/a" "layxor_1/a" -3065.95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -143 -94 -1792 -517 0 0 0 0 0 0 0 0
+merge "layxor_1/a" "a2"
+merge "andl_1/b" "layxor_1/b" -1237.91 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -196 -96 -602 -207 0 0 0 0 0 0 0 0
+merge "layxor_1/b" "b2"
+merge "andl_2/a" "layxor_2/a" -2338.58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -45 -45 -795 -420 0 0 0 0 0 0 0 0
+merge "layxor_2/a" "a3"
+merge "andl_0/s" "g1" -10.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0
+merge "andl_2/b" "layxor_2/b" -1369.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -166 -96 -791 -219 0 0 0 0 0 0 0 0
+merge "layxor_2/b" "b3"
+merge "andl_0/a" "layxor_0/a" -2904.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -209 -119 -1177 -514 0 0 0 0 0 0 0 0
+merge "layxor_0/a" "a1"
+merge "layxor_0/b" "andl_0/b" -1521.71 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -414 -128 -1133 -239 0 0 0 0 0 0 0 0
+merge "andl_0/b" "b1"
+merge "andl_1/s" "g2" -20.7705 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -16 0 0 0 0 0 0 0 0 0 0
+merge "andl_3/s" "g4" -10.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0

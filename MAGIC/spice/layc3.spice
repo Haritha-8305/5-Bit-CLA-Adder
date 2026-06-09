@@ -1,0 +1,37 @@
+* SPICE3 file created from layc3.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 c3 n gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=465 ps=236
+M1001 c3 n vdd inv_0/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=1230 ps=542
+M1002 k c0 vdd w_n23_n72# pfet w=80 l=2
++  ad=1200 pd=510 as=0 ps=0
+M1003 a_62_n211# g2 gnd Gnd nfet w=13 l=2
++  ad=465 pd=216 as=0 ps=0
+M1004 l g1 k w_n23_n72# pfet w=80 l=2
++  ad=1000 pd=430 as=0 ps=0
+M1005 vdd p3 m w_n23_n72# pfet w=26 l=2
++  ad=0 pd=0 as=930 ps=402
+M1006 vdd p2 l w_n23_n72# pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 n g3 gnd Gnd nfet w=10 l=2
++  ad=250 pd=120 as=0 ps=0
+M1008 a_62_n211# p2 p Gnd nfet w=40 l=2
++  ad=0 pd=0 as=500 ps=230
+M1009 vdd p1 k w_n23_n72# pfet w=80 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 m g2 l w_n23_n72# pfet w=80 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 n g3 m w_n23_n72# pfet w=80 l=2
++  ad=400 pd=170 as=0 ps=0
+M1012 p p1 q Gnd nfet w=40 l=2
++  ad=0 pd=0 as=400 ps=180
+M1013 q c0 gnd Gnd nfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 p g1 gnd Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 n p3 a_62_n211# Gnd nfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 gnd Gnd 2.48fF

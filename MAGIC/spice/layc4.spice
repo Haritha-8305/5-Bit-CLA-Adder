@@ -1,0 +1,51 @@
+* SPICE3 file created from layc4.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 c4 c4bar gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=620 ps=308
+M1001 c4 c4bar vdd inverterl_0/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=1640 ps=716
+M1002 vdd p2 a_n42_n27# w_n108_n41# pfet w=50 l=2
++  ad=0 pd=0 as=1250 ps=530
+M1003 vdd p3 a_7_n27# w_n108_n41# pfet w=33 l=2
++  ad=0 pd=0 as=1165 ps=496
+M1004 a_n94_n27# c0 vdd w_n108_n41# pfet w=100 l=2
++  ad=1500 pd=630 as=0 ps=0
+M1005 a_n42_n27# g1 a_n94_n27# w_n108_n41# pfet w=100 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 a_7_n27# g2 a_n42_n27# w_n108_n41# pfet w=100 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 vdd p1 a_n94_n27# w_n108_n41# pfet w=100 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 gnd g1 a_n67_n164# Gnd nfet w=25 l=2
++  ad=0 pd=0 as=625 ps=280
+M1009 a_30_n129# p3 a_n14_n149# Gnd nfet w=50 l=2
++  ad=565 pd=256 as=580 ps=262
+M1010 c4bar p4 a_30_n129# Gnd nfet w=50 l=2
++  ad=300 pd=140 as=0 ps=0
+M1011 gnd g2 a_n14_n149# Gnd nfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 a_n94_n174# c0 gnd Gnd nfet w=50 l=2
++  ad=500 pd=220 as=0 ps=0
+M1013 a_n67_n164# p1 a_n94_n174# Gnd nfet w=50 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 a_51_n27# g3 a_7_n27# w_n108_n41# pfet w=100 l=2
++  ad=1125 pd=480 as=0 ps=0
+M1015 gnd g3 a_30_n129# Gnd nfet w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 a_n14_n149# p2 a_n67_n164# Gnd nfet w=50 l=2
++  ad=0 pd=0 as=0 ps=0
+M1017 c4bar g4 a_51_n27# w_n108_n41# pfet w=100 l=2
++  ad=500 pd=210 as=0 ps=0
+M1018 vdd p4 a_51_n27# w_n108_n41# pfet w=25 l=2
++  ad=0 pd=0 as=0 ps=0
+M1019 gnd g4 c4bar Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 p4 g4 2.34fF
+C1 g2 p3 2.19fF
+C2 g3 p4 2.80fF
+C3 g3 p3 2.51fF
+C4 vdd a_n94_n27# 2.24fF
+C5 w_n108_n41# Gnd 26.49fF
+C6 gnd Gnd 2.93fF

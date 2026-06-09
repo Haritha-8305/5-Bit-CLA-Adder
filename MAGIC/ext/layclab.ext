@@ -1,0 +1,116 @@
+timestamp 1764768403
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use layc3 layc3_0 1 0 44 0 1 -98
+use layc1 layc1_0 1 0 -1 0 1 -1176
+use layc2 layc2_0 1 0 -184 0 1 -436
+use layc4 layc4_0 1 0 128 0 1 201
+use layc5 layc5_0 1 0 49 0 1 662
+node "m1_n180_n899#" 3 629.966 -180 -899 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 865 356 0 0 0 0 0 0 0 0 0 0
+node "c1" 1 89.706 152 -804 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 58 0 0 0 0 0 0 0 0 0 0
+node "c2" 0 86.4384 276 -553 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 56 0 0 0 0 0 0 0 0 0 0
+node "c3" 0 70.1004 297 -139 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 46 0 0 0 0 0 0 0 0 0 0
+node "c4" 0 70.1004 325 113 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 46 0 0 0 0 0 0 0 0 0 0
+node "m1_n20_505#" 0 132.337 -20 505 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "m1_n27_514#" 0 138.489 -27 514 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70 38 25 20 0 0 0 0 0 0 0 0
+node "gnd" 20 10493.1 133 -829 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19184 4424 0 0 0 0 0 0 0 0 0 0
+node "m1_387_640#" 0 17.8188 387 640 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0 0 0 0 0 0 0
+node "g4" 189 106576 -168 527 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12981 5824 49889 18512 0 0 0 0 0 0 0 0
+equiv "g4" "p4"
+equiv "g4" "g3"
+equiv "g4" "p3"
+equiv "g4" "g2"
+equiv "g4" "p2"
+equiv "g4" "g1"
+equiv "g4" "p1"
+equiv "g4" "C0"
+equiv "g4" "c0"
+equiv "g4" "p4"
+equiv "g4" "g3"
+equiv "g4" "p3"
+equiv "g4" "g2"
+equiv "g4" "p2"
+equiv "g4" "g1"
+equiv "g4" "p1"
+node "VDD" 17 12665.6 -195 484 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25376 4640 0 0 0 0 0 0 0 0 0 0
+equiv "VDD" "vdd"
+cap "g4" "m1_n27_514#" 201.144
+cap "g4" "VDD" 6083.42
+cap "m1_n27_514#" "m1_n20_505#" 51.5475
+cap "layc1_0/g1" "layc1_0/p1" 1.42109e-14
+cap "layc1_0/p1" "layc1_0/c0" 2.84217e-14
+subcap "gnd" -10289.6
+subcap "c1" -95.3922
+cap "layc2_0/p2" "layc2_0/g1" 1.42109e-14
+cap "layc2_0/c0" "layc2_0/p1" 1.42109e-14
+cap "layc2_0/g1" "layc2_0/p1" 1.42109e-14
+cap "layc2_0/p2" "layc2_0/g2" 1.42109e-14
+cap "g4" "g4" -13.746
+cap "g4" "g4" -4.26326e-14
+cap "g4" "g4" -2.84217e-14
+cap "layc3_0/c0" "g4" -8.52651e-14
+cap "g4" "g4" -5.68434e-14
+cap "g4" "g4" -5.68434e-14
+cap "g4" "g4" -13.746
+subcap "c3" -49.7544
+cap "layc4_0/g4" "layc4_0/p4" 2.84217e-14
+subcap "m1_n20_505#" -159.108
+cap "g4" "layc5_0/a_158_n132#" -192.444
+cap "g4" "g4" -178.698
+cap "layc5_0/a_207_n148#" "layc5_0/a_158_n132#" -30.9285
+cap "layc5_0/a_207_n148#" "layc5_0/a_237_n156#" -10.3095
+cap "g4" "g4" -274.92
+merge "layc5_0/a_182_n140#" "layc5_0/a_158_n132#" -4301.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2755 -2098 -636 -321 0 0 0 0 0 0 0 0
+merge "layc5_0/a_158_n132#" "layc5_0/g3"
+merge "layc5_0/g3" "layc5_0/p3"
+merge "layc5_0/p3" "layc5_0/g2"
+merge "layc5_0/g2" "layc5_0/p2"
+merge "layc5_0/p2" "layc5_0/g1"
+merge "layc5_0/g1" "layc5_0/p1"
+merge "layc5_0/p1" "layc5_0/c0"
+merge "layc5_0/c0" "layc4_0/p2"
+merge "layc4_0/p2" "layc4_0/g2"
+merge "layc4_0/g2" "layc4_0/p3"
+merge "layc4_0/p3" "layc4_0/g3"
+merge "layc4_0/g3" "layc4_0/p4"
+merge "layc4_0/p4" "layc4_0/g4"
+merge "layc4_0/g4" "layc4_0/c0"
+merge "layc4_0/c0" "layc4_0/p1"
+merge "layc4_0/p1" "layc4_0/g1"
+merge "layc4_0/g1" "layc3_0/p1"
+merge "layc3_0/p1" "layc3_0/c0"
+merge "layc3_0/c0" "layc3_0/g3"
+merge "layc3_0/g3" "layc3_0/p3"
+merge "layc3_0/p3" "layc3_0/g2"
+merge "layc3_0/g2" "layc3_0/p2"
+merge "layc3_0/p2" "layc3_0/g1"
+merge "layc3_0/g1" "layc2_0/c0"
+merge "layc2_0/c0" "layc2_0/p1"
+merge "layc2_0/p1" "layc2_0/g1"
+merge "layc2_0/g1" "layc2_0/p2"
+merge "layc2_0/p2" "layc2_0/g2"
+merge "layc2_0/g2" "layc1_0/g1"
+merge "layc1_0/g1" "layc1_0/p1"
+merge "layc1_0/p1" "layc1_0/c0"
+merge "layc1_0/c0" "g4"
+merge "layc1_0/c1" "c1" -8.016 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "layc5_0/inv_0/gnd" "layc4_0/inverterl_0/gnd" -621.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -797 -369 0 0 0 0 0 0 0 0 0 0
+merge "layc4_0/inverterl_0/gnd" "layc3_0/inv_0/gnd"
+merge "layc3_0/inv_0/gnd" "layc2_0/inverterl_0/gnd"
+merge "layc2_0/inverterl_0/gnd" "layc1_0/inverterl_0/gnd"
+merge "layc1_0/inverterl_0/gnd" "gnd"
+merge "layc5_0/a_207_n148#" "m1_n27_514#" -17.8188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0 0 0 0 0 0 0
+merge "layc4_0/c4" "c4" -11.2836 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0 0 0 0 0 0 0
+merge "layc1_0/gnd" "m1_n180_n899#" -92.4405 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -115 -56 0 0 0 0 0 0 0 0 0 0
+merge "layc5_0/inv_0/invo" "m1_387_640#" -17.8188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0 0 0 0 0 0 0
+merge "layc5_0/vdd" "layc4_0/vdd" -962.436 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1349 -547 0 0 0 0 0 0 0 0 0 0
+merge "layc4_0/vdd" "layc3_0/vdd"
+merge "layc3_0/vdd" "layc2_0/vdd"
+merge "layc2_0/vdd" "layc1_0/vdd"
+merge "layc1_0/vdd" "VDD"
+merge "layc3_0/c3" "c3" 2.0928 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 -8 0 0 0 0 0 0 0 0 0 0
+merge "layc2_0/c2" "c2" -14.5512 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 0 0 0 0 0 0 0 0
+merge "layc5_0/a_237_n156#" "m1_n20_505#" -30.5841 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 -10 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,177 @@
+magic
+tech scmos
+timestamp 1764763586
+<< metal1 >>
+rect -32 381 390 393
+rect -32 257 -21 381
+rect 48 362 262 366
+rect 48 357 55 362
+rect 82 347 99 356
+rect -32 249 -3 257
+rect -32 53 -21 249
+rect 64 195 69 203
+rect 64 190 80 195
+rect 145 178 153 362
+rect 255 336 262 362
+rect 278 335 284 344
+rect 327 286 340 292
+rect 334 233 357 238
+rect 382 210 390 381
+rect 334 203 390 210
+rect 49 177 260 178
+rect 49 174 261 177
+rect 49 155 56 174
+rect 145 169 261 174
+rect 82 153 102 164
+rect 132 71 141 77
+rect -32 46 6 53
+rect -32 -118 -21 46
+rect 65 -1 70 0
+rect 64 -6 82 -1
+rect 145 -9 152 169
+rect 254 138 261 169
+rect 254 137 260 138
+rect 277 122 284 153
+rect 334 35 355 40
+rect 382 12 390 203
+rect 329 5 390 12
+rect 46 -15 259 -9
+rect 46 -16 53 -15
+rect 87 -25 115 -18
+rect 129 -100 142 -94
+rect -32 -125 3 -118
+rect -32 -305 -22 -125
+rect 145 -188 152 -15
+rect 252 -26 259 -15
+rect 329 -128 347 -123
+rect 382 -151 390 5
+rect 332 -158 390 -151
+rect 48 -193 261 -188
+rect 48 -195 152 -193
+rect 48 -203 55 -195
+rect 82 -205 108 -201
+rect 131 -287 140 -281
+rect -32 -312 5 -305
+rect -33 -498 -24 -312
+rect 64 -359 69 -358
+rect 145 -371 152 -195
+rect 382 -241 390 -158
+rect 334 -296 347 -291
+rect 381 -297 390 -241
+rect 381 -319 389 -297
+rect 334 -326 389 -319
+rect 145 -372 261 -371
+rect 41 -376 261 -372
+rect 41 -397 48 -376
+rect 75 -391 115 -387
+rect 75 -398 82 -391
+rect 333 -426 337 -420
+rect 124 -480 143 -474
+rect 333 -479 348 -474
+rect -33 -500 2 -498
+rect -33 -505 25 -500
+rect 381 -502 389 -326
+rect 331 -508 389 -502
+rect 333 -509 389 -508
+rect 57 -555 62 -551
+<< m2contact >>
+rect 99 347 106 356
+rect 80 190 86 195
+rect 278 344 284 356
+rect 340 286 347 292
+rect 102 153 112 164
+rect 82 -6 89 -1
+rect 277 153 284 164
+rect 330 88 335 94
+rect 115 -25 122 -18
+rect 61 -179 68 -170
+rect 274 -25 281 -18
+rect 327 -75 332 -69
+rect 276 -194 283 -185
+rect 108 -208 115 -200
+rect 64 -364 70 -359
+rect 329 -243 334 -237
+rect 276 -378 282 -372
+rect 115 -392 122 -386
+rect 337 -426 344 -420
+rect 57 -560 62 -555
+<< metal2 >>
+rect 106 347 278 356
+rect 340 195 347 286
+rect 86 190 347 195
+rect 112 153 277 164
+rect 330 -1 334 88
+rect 89 -6 334 -1
+rect 122 -25 274 -18
+rect 327 -170 332 -75
+rect 68 -179 332 -170
+rect 176 -194 276 -185
+rect 176 -200 182 -194
+rect 115 -206 182 -200
+rect 329 -360 334 -243
+rect 70 -364 334 -360
+rect 182 -378 276 -372
+rect 182 -387 187 -378
+rect 122 -391 187 -387
+rect 337 -555 344 -426
+rect 62 -560 344 -555
+use layxor  layxor_3
+timestamp 1732053543
+transform 1 0 -226 0 1 -501
+box 209 -50 350 105
+use andl  andl_3
+timestamp 1731865650
+transform 1 0 221 0 1 -509
+box -11 0 112 133
+use layxor  layxor_2
+timestamp 1732053543
+transform 1 0 -219 0 1 -308
+box 209 -50 350 105
+use andl  andl_2
+timestamp 1731865650
+transform 1 0 222 0 1 -326
+box -11 0 112 133
+use layxor  layxor_1
+timestamp 1732053543
+transform 1 0 -221 0 1 -121
+box 209 -50 350 105
+use andl  andl_1
+timestamp 1731865650
+transform 1 0 220 0 1 -158
+box -11 0 112 133
+use layxor  layxor_0
+timestamp 1732053543
+transform 1 0 -218 0 1 50
+box 209 -50 350 105
+use andl  andl_0
+timestamp 1731865650
+transform 1 0 222 0 1 5
+box -11 0 112 133
+use layxor  layxor_4
+timestamp 1732053543
+transform 1 0 -219 0 1 253
+box 209 -50 350 105
+use andl  andl_4
+timestamp 1731865650
+transform 1 0 223 0 1 203
+box -11 0 112 133
+<< labels >>
+rlabel metal1 136 73 136 73 7 p1
+rlabel metal1 68 -3 68 -3 1 a1
+rlabel metal1 52 158 52 158 1 vdd
+rlabel metal1 -19 49 -19 49 3 gnd
+rlabel m2contact 66 -175 66 -175 1 a2
+rlabel metal1 135 -97 135 -97 1 p2
+rlabel metal1 89 -22 89 -22 1 b2
+rlabel metal1 135 -284 135 -284 1 p3
+rlabel metal1 95 -203 95 -203 1 b3
+rlabel m2contact 67 -362 67 -362 1 a3
+rlabel metal1 91 -389 91 -389 1 b4
+rlabel metal1 134 -478 134 -478 1 p4
+rlabel m2contact 59 -556 59 -556 1 a4
+rlabel metal1 346 37 346 37 1 g1
+rlabel metal1 337 -126 337 -126 1 g2
+rlabel metal1 341 -294 341 -294 1 g3
+rlabel metal1 342 -476 342 -476 1 g4
+rlabel metal1 87 158 87 158 1 b1
+<< end >>

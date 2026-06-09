@@ -1,0 +1,31 @@
+* SPICE3 file created from layc2.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 c2 c2bar gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=325 ps=170
+M1001 c2 c2bar vdd inverterl_0/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=850 ps=380
+M1002 a_202_n71# c0 vdd w_185_n97# pfet w=60 l=2
++  ad=900 pd=390 as=0 ps=0
+M1003 gnd g2 c2bar Gnd nfet w=10 l=2
++  ad=0 pd=0 as=200 ps=100
+M1004 c2bar p2 a_235_n179# Gnd nfet w=30 l=2
++  ad=0 pd=0 as=375 ps=180
+M1005 a_270_n71# g1 a_202_n71# w_185_n97# pfet w=60 l=2
++  ad=750 pd=330 as=0 ps=0
+M1006 c2bar g2 a_270_n71# w_185_n97# pfet w=60 l=2
++  ad=300 pd=130 as=0 ps=0
+M1007 a_235_n179# p1 a_202_n189# Gnd nfet w=30 l=2
++  ad=0 pd=0 as=300 ps=140
+M1008 vdd p1 a_202_n71# w_185_n97# pfet w=60 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 a_202_n189# c0 gnd Gnd nfet w=30 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 gnd g1 a_235_n179# Gnd nfet w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 vdd p2 a_270_n71# w_185_n97# pfet w=30 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 w_185_n97# Gnd 18.91fF
+C1 gnd Gnd 2.16fF
+C2 vdd Gnd 2.03fF

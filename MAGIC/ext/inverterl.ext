@@ -1,0 +1,24 @@
+timestamp 1731618937
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+node "gnd" 14 192.137 -6 -40 ndc 50 30 0 0 0 0 0 0 0 0 0 0 0 0 312 116 0 0 0 0 0 0 0 0 0 0
+node "invo" 45 115.324 1 -40 ndif 50 30 100 50 0 0 0 0 0 0 0 0 0 0 292 154 0 0 0 0 0 0 0 0 0 0
+node "vdd" 31 120.067 -6 -10 pdc 0 0 100 50 0 0 0 0 0 0 0 0 0 0 371 150 0 0 0 0 0 0 0 0 0 0
+node "invi" 239 177.071 -5 -27 pc 0 0 0 0 0 0 0 0 0 0 140 136 0 0 88 52 0 0 0 0 0 0 0 0 0 0
+node "w_n17_n22#" 1323 1557.82 -17 -22 nw 0 0 0 0 1551 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "invi" "gnd" 54.984
+cap "w_n17_n22#" "invo" 63.2592
+cap "invi" "invo" 54.984
+cap "invo" "vdd" 206.19
+cap "invi" "w_n17_n22#" 134.49
+cap "w_n17_n22#" "vdd" 102.12
+cap "invo" "gnd" 136.085
+fet nfet -1 -40 0 -39 20 24 "Gnd!" "invi" 4 0 "gnd" 10 0 "invo" 10 0
+fet pfet -1 -10 0 -9 40 44 "w_n17_n22#" "invi" 4 0 "vdd" 20 0 "invo" 20 0
+subcap "gnd" -46.6644
+subcap "invo" -26.1408
+subcap "vdd" -41.8173
+subcap "invi" -26.1408

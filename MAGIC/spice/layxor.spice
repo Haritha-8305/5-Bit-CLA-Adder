@@ -1,0 +1,16 @@
+* SPICE3 file created from layxor.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 bbar b gnd Gnd nfet w=10 l=2
++  ad=51 pd=31 as=50 ps=30
+M1001 bbar b vdd inverterl_1/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=100 ps=50
+M1002 s a bbar Gnd nfet w=10 l=2
++  ad=100 pd=60 as=0 ps=0
+M1003 s a b w_276_32# pfet w=20 l=2
++  ad=200 pd=100 as=100 ps=50
+M1004 s bbar a Gnd nfet w=10 l=2
++  ad=0 pd=0 as=50 ps=30
+M1005 s b a w_276_32# pfet w=20 l=2
++  ad=0 pd=0 as=100 ps=50

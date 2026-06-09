@@ -1,0 +1,120 @@
+* SPICE3 file created from laypgg.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 layxor_0/bbar b1 gnd Gnd nfet w=10 l=2
++  ad=51 pd=31 as=750 ps=450
+M1001 layxor_0/bbar b1 vdd layxor_0/inverterl_1/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=1000 ps=500
+M1002 p1 a1 layxor_0/bbar Gnd nfet w=10 l=2
++  ad=100 pd=60 as=0 ps=0
+M1003 p1 a1 b1 layxor_0/w_276_32# pfet w=20 l=2
++  ad=200 pd=100 as=100 ps=50
+M1004 p1 layxor_0/bbar a1 Gnd nfet w=10 l=2
++  ad=0 pd=0 as=100 ps=60
+M1005 p1 b1 a1 layxor_0/w_276_32# pfet w=20 l=2
++  ad=0 pd=0 as=200 ps=100
+M1006 layxor_1/bbar b2 gnd Gnd nfet w=10 l=2
++  ad=51 pd=31 as=0 ps=0
+M1007 layxor_1/bbar b2 vdd layxor_1/inverterl_1/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1008 p2 a2 layxor_1/bbar Gnd nfet w=10 l=2
++  ad=100 pd=60 as=0 ps=0
+M1009 p2 a2 b2 layxor_1/w_276_32# pfet w=20 l=2
++  ad=200 pd=100 as=100 ps=50
+M1010 p2 layxor_1/bbar a2 Gnd nfet w=10 l=2
++  ad=0 pd=0 as=100 ps=60
+M1011 p2 b2 a2 layxor_1/w_276_32# pfet w=20 l=2
++  ad=0 pd=0 as=200 ps=100
+M1012 layxor_3/bbar b4 gnd Gnd nfet w=10 l=2
++  ad=51 pd=31 as=0 ps=0
+M1013 layxor_3/bbar b4 vdd layxor_3/inverterl_1/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1014 p4 a4 layxor_3/bbar Gnd nfet w=10 l=2
++  ad=100 pd=60 as=0 ps=0
+M1015 p4 a4 b4 layxor_3/w_276_32# pfet w=20 l=2
++  ad=200 pd=100 as=100 ps=50
+M1016 p4 layxor_3/bbar a4 Gnd nfet w=10 l=2
++  ad=0 pd=0 as=100 ps=60
+M1017 p4 b4 a4 layxor_3/w_276_32# pfet w=20 l=2
++  ad=0 pd=0 as=200 ps=100
+M1018 layxor_2/bbar b3 gnd Gnd nfet w=10 l=2
++  ad=51 pd=31 as=0 ps=0
+M1019 layxor_2/bbar b3 vdd layxor_2/inverterl_1/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1020 p3 a3 layxor_2/bbar Gnd nfet w=10 l=2
++  ad=100 pd=60 as=0 ps=0
+M1021 p3 a3 b3 layxor_2/w_276_32# pfet w=20 l=2
++  ad=200 pd=100 as=100 ps=50
+M1022 p3 layxor_2/bbar a3 Gnd nfet w=10 l=2
++  ad=0 pd=0 as=100 ps=60
+M1023 p3 b3 a3 layxor_2/w_276_32# pfet w=20 l=2
++  ad=0 pd=0 as=200 ps=100
+M1024 layxor_4/bbar andl_4/b gnd Gnd nfet w=10 l=2
++  ad=51 pd=31 as=0 ps=0
+M1025 layxor_4/bbar andl_4/b vdd layxor_4/inverterl_1/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1026 layxor_4/s andl_4/a layxor_4/bbar Gnd nfet w=10 l=2
++  ad=100 pd=60 as=0 ps=0
+M1027 layxor_4/s andl_4/a andl_4/b layxor_4/w_276_32# pfet w=20 l=2
++  ad=200 pd=100 as=100 ps=50
+M1028 layxor_4/s layxor_4/bbar andl_4/a Gnd nfet w=10 l=2
++  ad=0 pd=0 as=100 ps=60
+M1029 layxor_4/s andl_4/b andl_4/a layxor_4/w_276_32# pfet w=20 l=2
++  ad=0 pd=0 as=200 ps=100
+M1030 andl_0/inverterl_0/invo b1 gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1031 andl_0/inverterl_0/invo b1 vdd andl_0/inverterl_0/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1032 g1 b1 a1 Gnd nfet w=10 l=2
++  ad=100 pd=60 as=0 ps=0
+M1033 g1 andl_0/inverterl_0/invo gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 g1 andl_0/inverterl_0/invo a1 andl_0/w_72_39# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1035 andl_1/inverterl_0/invo b2 gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1036 andl_1/inverterl_0/invo b2 vdd andl_1/inverterl_0/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1037 g2 b2 a2 Gnd nfet w=10 l=2
++  ad=100 pd=60 as=0 ps=0
+M1038 g2 andl_1/inverterl_0/invo gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1039 g2 andl_1/inverterl_0/invo a2 andl_1/w_72_39# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1040 andl_2/inverterl_0/invo b3 gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1041 andl_2/inverterl_0/invo b3 vdd andl_2/inverterl_0/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1042 g3 b3 a3 Gnd nfet w=10 l=2
++  ad=100 pd=60 as=0 ps=0
+M1043 g3 andl_2/inverterl_0/invo gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 g3 andl_2/inverterl_0/invo a3 andl_2/w_72_39# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1045 andl_3/inverterl_0/invo b4 gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1046 andl_3/inverterl_0/invo b4 vdd andl_3/inverterl_0/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1047 g4 b4 a4 Gnd nfet w=10 l=2
++  ad=100 pd=60 as=0 ps=0
+M1048 g4 andl_3/inverterl_0/invo gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1049 g4 andl_3/inverterl_0/invo a4 andl_3/w_72_39# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1050 andl_4/inverterl_0/invo andl_4/b gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1051 andl_4/inverterl_0/invo andl_4/b vdd andl_4/inverterl_0/w_n17_n22# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1052 andl_4/s andl_4/b andl_4/a Gnd nfet w=10 l=2
++  ad=100 pd=60 as=0 ps=0
+M1053 andl_4/s andl_4/inverterl_0/invo gnd Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 andl_4/s andl_4/inverterl_0/invo andl_4/a andl_4/w_72_39# pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+C0 vdd b3 2.70fF
+C1 vdd b2 2.16fF
+C2 vdd b4 2.23fF
+C3 b1 Gnd 2.02fF
+C4 gnd Gnd 16.33fF
+C5 vdd Gnd 4.04fF
